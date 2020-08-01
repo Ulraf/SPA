@@ -19,4 +19,5 @@ scoreboard objectives add RestartTimer trigger
 trigger RestartTimer set 1
 scoreboard players enable @a RestartTimer
 
+schedule clear speed_aid:inc_timer
 schedule function speed_aid:inc_timer 1s append
